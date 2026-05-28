@@ -1,7 +1,6 @@
 # Homework 5 — Submission
 
-**Repository (hw5 branch):** https://github.com/pelemeno/todo_app/tree/hw5  
-*(Replace with your GitHub Classroom repo URL if different.)*
+**Repository (hw5 branch):** https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-pelemeno/tree/hw5
 
 ---
 
@@ -9,7 +8,7 @@
 
 | Artifact | Link |
 |----------|------|
-| `.cursorignore` | https://github.com/pelemeno/todo_app/blob/hw5/.cursorignore |
+| `.cursorignore` | https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-pelemeno/blob/hw5/.cursorignore |
 
 **Extra `.cursorignore` entries (beyond minimum):** `.kamal/secrets`, `config/credentials.yml.enc`, `vendor/bundle/`, `public/assets/`, `coverage/`, editor swap files.
 
@@ -21,9 +20,9 @@
 
 | Artifact | Link |
 |----------|------|
-| `AGENTS.md` | https://github.com/pelemeno/todo_app/blob/hw5/AGENTS.md |
-| `rails-conventions.mdc` | https://github.com/pelemeno/todo_app/blob/hw5/.cursor/rules/rails-conventions.mdc |
-| `security.mdc` | https://github.com/pelemeno/todo_app/blob/hw5/.cursor/rules/security.mdc |
+| `AGENTS.md` | https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-pelemeno/blob/hw5/AGENTS.md |
+| `rails-conventions.mdc` | https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-pelemeno/blob/hw5/.cursor/rules/rails-conventions.mdc |
+| `security.mdc` | https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-pelemeno/blob/hw5/.cursor/rules/security.mdc |
 
 **Part 2d smoke test (in a new chat, no @-attachments):**
 
@@ -82,7 +81,7 @@ I want to add a "mark as high priority" toggle on the todos index that flips a b
 Add only the integration test for toggle_priority: PATCH with Accept text/vnd.turbo-stream.html, assert response.media_type and that high_priority flips. Do not change controller or views yet.
 ```
 
-**Commit (example — run your own Agent slice in Plan/Agent modes):** https://github.com/pelemeno/todo_app/commit/88eb5ee (migration-only slice) or https://github.com/pelemeno/todo_app/commit/9529ecb (UI + test)
+**Commit (example — run your own Agent slice in Plan/Agent modes):** https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-pelemeno/commit/88eb5ee (migration-only slice) or https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-pelemeno/commit/9529ecb (UI + test)
 
 ### Bad → good prompt rewrite
 
@@ -119,7 +118,7 @@ A **Turbo Stream** response is HTML fragments that tell Turbo which DOM nodes to
 
 ### Pull request
 
-**PR URL:** *(paste after `gh pr create`)* https://github.com/pelemeno/todo_app/pull/___
+**PR URL:** *(paste after `gh pr create`)* https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-pelemeno/pull/___
 
 Use the PR description template from the homework (`## Story`, `## Plan`, `## Tests`, `## Things I rejected from the AI`).
 
