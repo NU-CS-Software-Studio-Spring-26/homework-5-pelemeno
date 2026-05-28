@@ -1,0 +1,25 @@
+.env
+.env.*
+config/master.key
+config/credentials/*.key
+tmp/
+log/
+storage/
+node_modules/
+
+# Kamal deploy secrets and hooks with local overrides
+.kamal/secrets
+.kamal/secrets.*
+
+# Encrypted credentials (decrypt only on deploy machines)
+config/credentials.yml.enc
+
+# Vendor and build artifacts
+vendor/bundle/
+public/assets/
+coverage/
+
+# Editor and OS noise
+.DS_Store
+*.swp
+*.swo
