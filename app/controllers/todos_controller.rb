@@ -1,5 +1,5 @@
 class TodosController < ApplicationController
-  before_action :set_todo, only: %i[ show edit update destroy ]
+  before_action :set_todo, only: %i[ show edit update destroy toggle_priority ]
 
   # GET /todos or /todos.json
   def index
@@ -44,6 +44,15 @@ class TodosController < ApplicationController
         format.html { render :edit, status: :unprocessable_content }
         format.json { render json: @todo.errors, status: :unprocessable_content }
       end
+    end
+  end
+
+  # PATCH /todos/1/toggle_priority
+  def toggle_priority
+    @todo.update!(high_priority: !@todo.high_priority)
+
+    respond_to do |format|
+      format.turbo_stream
     end
   end
 
