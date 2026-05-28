@@ -82,9 +82,7 @@ I want to add a "mark as high priority" toggle on the todos index that flips a b
 Add only the integration test for toggle_priority: PATCH with Accept text/vnd.turbo-stream.html, assert response.media_type and that high_priority flips. Do not change controller or views yet.
 ```
 
-**Commit:** *(paste after push)* https://github.com/pelemeno/todo_app/commit/________
-
-*(Homework implementation used a single test added with the feature; use an earlier commit if you ran a test-only slice first.)*
+**Commit (example — run your own Agent slice in Plan/Agent modes):** https://github.com/pelemeno/todo_app/commit/88eb5ee (migration-only slice) or https://github.com/pelemeno/todo_app/commit/9529ecb (UI + test)
 
 ### Bad → good prompt rewrite
 
