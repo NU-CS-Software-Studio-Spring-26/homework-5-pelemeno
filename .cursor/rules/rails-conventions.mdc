@@ -1,0 +1,15 @@
+---
+description: Rails 8 conventions for the sample todo app
+alwaysApply: true
+---
+
+# Rails conventions (todo app)
+
+- Prefer Turbo Streams (`format.turbo_stream` + `*.turbo_stream.erb`) over one-off AJAX or inline JavaScript for partial page updates.
+- Keep migrations reversible (`change` with `reversible` or explicit `up`/`down`).
+- Use strong parameters (`params.expect` / `permit`) on every mass-assignment path; never assign from `params` directly on models.
+- Generate boilerplate with `bin/rails generate` when adding models, controllers, or migrations; do not copy migrations from other repos.
+- Controllers should `respond_to` HTML, JSON, and Turbo Stream as needed; match view paths under `app/views/<controller>/`.
+- Partials use leading underscore (`_todo.html.erb`); wrap list rows with `dom_id(record)` for Turbo `replace`/`update` targets.
+- Run `bin/rubocop` and `bin/rails test` before considering a change done.
+- Schema stays limited to todos and Rails 8 solid_* support tables—no extra domain models without a task.
