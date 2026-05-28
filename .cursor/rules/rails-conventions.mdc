@@ -3,7 +3,7 @@ description: Rails 8 conventions for the sample todo app
 alwaysApply: true
 ---
 
-# Rails conventions (todo app)
+# Rails conventions
 
 - Prefer Turbo Streams (`format.turbo_stream` + `*.turbo_stream.erb`) over one-off AJAX or inline JavaScript for partial page updates.
 - Keep migrations reversible (`change` with `reversible` or explicit `up`/`down`).

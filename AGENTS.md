@@ -6,9 +6,9 @@ Rails 8.1 sample todo app. SQLite in development and test (`storage/*.sqlite3` p
 
 ## Commands
 
-- Setup: `bin/setup` (optionally `--reset` for `db:reset`)
+- Setup: `bin/setup`
 - Run app: `bin/dev` (Puma via `bin/rails server`)
-- Tests: `bin/rails test` (full suite) or `bin/ci` for lint + security + tests
+- Tests: `bin/rails test`
 - Lint: `bin/rubocop`
 
 ## Conventions
@@ -23,7 +23,7 @@ Rails 8.1 sample todo app. SQLite in development and test (`storage/*.sqlite3` p
 
 - Do not add gems without explicit approval.
 - Do not use `skip_before_action :verify_authenticity_token` or disable CSRF.
-- Do not put inline `<script>` in ERB; use Stimulus controllers under `app/javascript/controllers/` if JS is needed.
-- Do not seed real user PII; use `db/seeds.rb` only for demo data.
+- Do not put inline JavaScript in ERB; use Stimulus controllers under `app/javascript/controllers/` if JS is needed.
+- Do not seed real user data; use `db/seeds.rb` only
 - Do not hand-edit `db/schema.rb`; use reversible migrations.
 - Keep changes scoped to this todo app (no imports from other projects).

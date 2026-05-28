@@ -3,10 +3,10 @@ description: Security rules for the sample todo app
 alwaysApply: true
 ---
 
-# Security (todo app)
+# Security
 
 - Never write, log, echo, or commit secrets, API keys, production credentials, or contents of `.env`, `config/master.key`, or `config/credentials/*.key`.
-- Never use `eval`, `instance_eval`, or `class_eval` on user-controlled input (`params`, request body, headers).
+- Never use `eval`, `instance_eval`, or `class_eval` on user input (`params`, request body, headers).
 - Never call `html_safe` or `raw` on untrusted strings (user input, params, external API data).
 - Use ActiveRecord / parameterized queries only; never interpolate user input into SQL strings.
 - Do not disable CSRF protection, strong parameters, or mass-assignment guards.

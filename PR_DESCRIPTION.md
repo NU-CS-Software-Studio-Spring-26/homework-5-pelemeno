@@ -37,5 +37,5 @@ Finished in 0.214562s, 37.2853 runs/s, 60.5886 assertions/s.
 
 ## Things I rejected from the AI
 
-- A separate Stimulus controller for the toggle — `button_to` with `data: { turbo_stream: true }` is enough.
-- Replacing only the button DOM id instead of the whole `_todo` partial — kept one partial for consistent row markup.
+- A separate Stimulus controller for the toggle, `button_to` with `data: { turbo_stream: true }` is enough
+- Replacing only the button DOM id instead of the whole `_todo` partial. Kept one partial for consistent row markup
